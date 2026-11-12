@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 390" role="img" aria-labelledby="title">
+  <title id="title">Illustrated sample portrait of Dr. Kabir Shah</title>
+  <rect width="320" height="390" rx="22" fill="#f2eadc"/>
+  <circle cx="160" cy="142" r="77" fill="#bd8461"/>
+  <path d="M82 137c-9-67 19-108 80-108 59 0 88 37 76 107l-17-17-9-40c-41 20-80 20-112 10l-6 34Z" fill="#302b28"/>
+  <path d="M57 389c6-107 43-151 103-151 62 0 98 44 103 151" fill="#f7f5ed"/>
+  <path d="M125 242c5 24 16 37 35 37s30-13 35-37l-35 9Z" fill="#ae7357"/>
+  <path d="m134 272 26 39 26-39 25 117H109Z" fill="#fdfcf8"/>
+  <path d="m121 277 39 36-33 42-26-58ZM199 277l-39 36 33 42 26-58Z" fill="#607b6e"/>
+  <path d="m160 313 14 25-14 40-14-40Z" fill="#ddbc88"/>
+  <path d="M127 166q12-8 25 0M168 166q12-8 25 0" fill="none" stroke="#342a27" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="139" cy="151" r="4" fill="#342a27"/><circle cx="181" cy="151" r="4" fill="#342a27"/>
+  <path d="M145 184q15 9 30 0" fill="none" stroke="#794a40" stroke-width="4" stroke-linecap="round"/>
+  <path d="M84 146q-13-7-19 5 1 19 18 20M236 146q13-7 19 5-1 19-18 20" fill="#bd8461"/>
+</svg>

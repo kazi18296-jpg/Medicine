@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#143d37">
+  <meta name="description" content="A welcoming demo homoeopathy shop with a sample doctor appointment booking experience.">
+  <title>Root & Remedy — Homoeopathy Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=polish4">
+  <script src="app.js?v=polish4" defer></script>
+</head>
+<body>
+  <div class="announcement">Thoughtful care, made simple <span>·</span> Demo shop — no real orders or bookings</div>
+  <header class="site-header">
+    <a class="brand" href="#" data-page="shop" aria-label="Root and Remedy home">
+      <span class="brand-mark" aria-hidden="true">r<span>+</span></span>
+      <span class="brand-name">root <b>&</b> remedy<small>HOMOEOPATHY, THOUGHTFULLY</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="#" data-page="shop" class="nav-link active">Shop</a>
+      <a href="#" data-page="appointments" class="nav-link">Appointments</a>
+      <a href="#" data-page="operations" class="nav-link">Operations demo</a>
+      <a href="#" data-page="about" class="nav-link">Our approach</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="accountButton" aria-label="Account"><span aria-hidden="true">♙</span><span class="action-label" id="accountLabel">Sign in</span></button>
+      <button class="icon-button" data-page="wishlist" aria-label="Wishlist"><span aria-hidden="true">♡</span><span class="action-label">Saved</span><span class="count-badge" id="wishlistCount">0</span></button>
+      <button class="cart-button" data-page="cart"><span aria-hidden="true">▱</span> Cart <span class="count-badge" id="cartCount">0</span></button>
+    </div>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#" data-page="shop"><span class="brand-mark" aria-hidden="true">r<span>+</span></span><span class="brand-name">root <b>&</b> remedy<small>HOMOEOPATHY, THOUGHTFULLY</small></span></a>
+    <p>Product information is for general reference only, not medical advice. Consult a qualified healthcare professional for personal guidance.</p>
+    <span class="demo-label">LOCAL DEMO · NO REAL ORDERS OR APPOINTMENTS</span>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modalRoot"></div>
+</body>
+</html>
